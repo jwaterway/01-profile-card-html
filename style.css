@@ -1,0 +1,85 @@
+/* The body selector styles the whole page */
+body {
+	/* Remove default margin around the page */
+	margin: 0;
+	/* Make the body at least the height of the viewport */
+	min-height: 100vh;
+	/* Use flexbox to center the card horizontally */
+	display: flex;
+	/* Center the card horizontally */
+	justify-content: center;
+	/* Align the card to the top of the page */
+	align-items: flex-start;
+	/* Add space from the top of the page */
+	padding-top: 40px;
+	/* Set the background color to turquoise */
+	background-color: turquoise;
+	/* Use a modern, clean font */
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+/* The card class styles the profile card container */
+.card {
+	/* Center text inside the card */
+	text-align: center;
+	/* Make the card background white */
+	background-color: white;
+	/* Add a dark border around the card (uncomment to use) */
+	/* border: 1px solid #4a4a4a; */
+	/* Add space inside the card */
+	padding: 24px;
+	/* Slightly round the corners */
+	border-radius: 8px;
+	/* Set max width to fit content */
+	max-width: 500px;
+}
+
+/* Style the main heading (name) */
+h1 {
+	/* Make the name large */
+	font-size: 48px;
+	/* Set the name color to dark blue */
+	color: rgb(14, 69, 125);
+	/* Add space below the heading */
+	margin: 0 0 8px;
+	
+}
+
+/* Style the subheading (title) */
+h2 {
+	/* Make the title a bit smaller than the name */
+	font-size: 32px;
+	/* Set the title color to grayish */
+	color: rgb(142, 142, 146);
+	/* Add space below the subheading */
+	margin: 0 0 12px;
+	
+}
+
+/* Remove default margin from paragraphs */
+p {
+	/* Remove default margin from paragraphs */
+	margin: 0;
+}
+
+/* Remove bullets from list */
+ul {
+	/* Remove default list bullets */
+	list-style: none;
+	/* Remove default list padding */
+	padding: 0;
+}
+
+/* Style the profile image */
+.profile-image {
+	/* Set the image size */
+	width: 150px;
+	/* Match width for circular shape */
+	height: 150px;
+	/* Make image fill the circle */
+	object-fit: cover;
+	/* Add space below the image */
+	margin-bottom: 16px;
+	/* Make image perfectly circular */
+	border-radius: 50%;
+}
