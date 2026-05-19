@@ -73,13 +73,19 @@ ul {
 /* Style the profile image */
 .profile-image {
 	/* Set the image size */
-	width: 150px;
+	width: 140px;
 	/* Match width for circular shape */
-	height: 150px;
+	height: 140px;
 	/* Make image fill the circle */
 	object-fit: cover;
 	/* Add space below the image */
 	margin-bottom: 16px;
 	/* Make image perfectly circular */
 	border-radius: 50%;
+	/* Add subtle framing for cleaner edges */
+	border: 3px solid white;
+	/* Add depth without overpowering the card */
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+	/* Light smoothing and color polish to reduce visible JPEG grain */
+	filter: blur(0.15px) contrast(1.02) saturate(1.03);
 }
